@@ -23,7 +23,7 @@ This project allows you to host assets via GitHub + jsDelivr CDN and embed a ful
 
 Inside `<head>`:
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PashtunObserver/blogger-audio-player@main/style.css"/>
+< link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PashtunObserver/blogger-audio-player@main/style.css"/>
 
 Before `</body>`:
 
