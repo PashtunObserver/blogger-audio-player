@@ -1,0 +1,84 @@
+<div class="blogger-audio-player" id="audioPlayer"
+data-tracks='[
+{
+"title":"Song One",
+"artist":"Artist Name",
+"src":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+"duration":"3:40"
+},
+{
+"title":"Song Two",
+"artist":"Artist Two",
+"src":"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+"duration":"4:10"
+}
+]'>
+
+<!-- NOW PLAYING -->
+<div class="now-playing">
+  <div class="album-art">
+    <span class="music-icon">🎵</span>
+  </div>
+
+  <div class="track-info">
+    <div class="track-title" id="trackTitle">Loading...</div>
+    <div class="track-artist" id="trackArtist">--</div>
+    <div class="track-status" id="trackStatus">Ready</div>
+  </div>
+</div>
+
+<!-- VISUALIZER -->
+<div class="visualizer" id="visualizer">
+  <div class="viz-bar"></div>
+  <div class="viz-bar"></div>
+  <div class="viz-bar"></div>
+  <div class="viz-bar"></div>
+  <div class="viz-bar"></div>
+  <div class="viz-bar"></div>
+</div>
+
+<!-- PROGRESS -->
+<div class="progress-section">
+  <div class="progress-bar-container" id="progressContainer">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <div class="time-display">
+    <span id="currentTime">0:00</span>
+    <span id="duration">0:00</span>
+  </div>
+</div>
+
+<!-- CONTROLS -->
+<div class="controls">
+  <button class="control-btn" id="prevBtn">⏮</button>
+  <button class="control-btn play-pause" id="playPauseBtn">▶</button>
+  <button class="control-btn" id="nextBtn">⏭</button>
+
+  <button class="control-btn" id="shuffleBtn">🔀</button>
+  <button class="control-btn" id="repeatBtn">🔁</button>
+</div>
+
+<!-- EXTRAS -->
+<div class="extras-row">
+  <div class="volume-section">
+    🔊
+    <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="80">
+  </div>
+
+  <button class="speed-btn" id="speedBtn">1x</button>
+</div>
+
+<!-- PLAYLIST -->
+<div class="playlist-section">
+  <div class="playlist-header">
+    <span class="playlist-title">Playlist</span>
+    <span class="playlist-count" id="playlistCount"></span>
+  </div>
+
+  <div class="playlist" id="playlist"></div>
+</div>
+
+<audio id="audioElement"></audio>
+
+</div>
