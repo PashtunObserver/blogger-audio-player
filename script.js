@@ -1,25 +1,4 @@
 // ===== CONFIGURATION =====
-// Add your audio tracks here!
-const TRACKS = [
-  {
-    title: "Sample Track 1",
-    artist: "Artist Name",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    duration: "6:12"
-  },
-  {
-    title: "Sample Track 2",
-    artist: "Another Artist",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-    duration: "7:05"
-  },
-  {
-    title: "Sample Track 3",
-    artist: "Third Artist",
-    src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-    duration: "5:44"
-  }
-];
 
 // ===== DOM ELEMENTS =====
 const audio = document.getElementById('audioElement');
